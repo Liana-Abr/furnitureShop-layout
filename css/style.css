@@ -3,6 +3,11 @@ body {
     margin: 0;
     padding: 0;
 }
+.visually-hidden{
+    display: none;
+}
+
+/* Header */
 
 header {
     display: flex;
@@ -63,4 +68,41 @@ ul li a {
     color: #726E8D;
     font-family: "Satoshi", sans-serif;
     font-weight: 300;
+}
+
+/* Features */
+
+.features__banner{
+    height: 704px;
+    position: relative;
+    background-image: url("/img/BannerImg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} 
+.features__banner-textblock{
+    background: #FFF;
+    position: absolute;
+    width: 513px;
+    height: 350px;
+    padding: 48px 61px 46px 56px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* gap: 157px; */
+    right: 5%;
+    top: 15%;
+
+}
+.features__banner-title{
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+.features__banner-textblock-btn{
+    background-color: #F9F9F9;
+    border: none;
+    padding: 16px 32px;
+    width: 170px;
 }
