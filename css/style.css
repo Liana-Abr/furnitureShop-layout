@@ -1,0 +1,66 @@
+body {
+    font-family: "ClashDisplay-Variable", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__content {
+    /* width: 100%; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+
+}
+
+.header__content::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.10);
+    width: 96%;
+    height: 2%;
+    left: 2%;
+    bottom: 1%;
+    position: absolute;
+
+}
+
+.header__content a {
+    color: #22202E;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+ul {
+    display: flex;
+    gap: 44px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: #22202E;
+    cursor: pointer;
+}
+
+.header__categories {
+    display: flex;
+    justify-content: center;
+}
+.header__categories li{
+    cursor: pointer;
+}
+
+.header__categories-item {
+    color: #726E8D;
+    font-family: "Satoshi", sans-serif;
+    font-weight: 300;
+}
